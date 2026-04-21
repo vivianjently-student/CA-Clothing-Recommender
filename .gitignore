@@ -1,0 +1,17 @@
+# Ignore the massive dataset folders
+data/
+img/
+FYP Development challenges.docx
+Fyp manual curated subset of images.docx
+img.zip
+Test queries for evaluation of FYP.docx
+
+# Ignore Python bytecode (the stuff that makes folders look messy)
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+

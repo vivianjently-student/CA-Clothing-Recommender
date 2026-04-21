@@ -12,12 +12,12 @@ from PIL import Image
 
 import tensorflow as tf
 
-#Root folder where the img/ is locatd
+#Note for user: Root folder where the img/ is located, update accordingly to where the folder is stored on your machine
 IMAGE_ROOT = r"C:\Users\Wanna\Desktop\Fashion FYP\img"
 
 
 
-
+#Note for user: change the following directory path to where you stored the project folder on your machine.
 EMBEDDINGS_DIR = r"C:\Users\Wanna\Desktop\Fashion FYP\embeddings"
 
 
@@ -82,6 +82,7 @@ def load_embeddings():
 
     print("Embeddings loaded. ")
 
+#Note 3: Please update the following path as well to where the file is stored on your machine.
 CURATED_PATH = r"C:\Users\Wanna\Desktop\Fashion FYP\notebooks\curated_annotations.csv"
 curated_df = pd.read_csv(CURATED_PATH)
 

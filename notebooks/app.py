@@ -91,7 +91,7 @@ def like_button(img_path: str, key: str):
 
 
 
-# Recommendations section
+#Recommendations section
 if page == "Recommendations":
 
     #Always clear explore state when on this page so the panel never bleeds over
@@ -122,7 +122,7 @@ if page == "Liked Images":
                 like_button(img_path, key=f"like_liked_{i}")
 
                 if st.button(" Explore Similar", key=f"explore_{i}"):
-                    # Toggle: clicking the same image again closes the panel
+                    #Toggle: clicking the same image again closes the panel
                     if st.session_state.explore_image == img_path:
                         st.session_state.explore_image = None
                     else:
