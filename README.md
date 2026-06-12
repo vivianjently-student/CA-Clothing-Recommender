@@ -1,11 +1,13 @@
 # CA-Clothing-Recommender Final Year Project
 Uses Base model ResNet-50 and transfer learning to utlize feature extraction
+
 Instructions to run the app:
 
-##NOTE:: ONLY IF YOU DO NOT HAVE   img/ FOLDER CONTAINING THE DEEPFASHION ATTRIBUTE PREDICTION DATASET DATASET, PLEASE NAVIGATE TO https://drive.google.com/file/d/0B7EVK8r0v71pa2EyNEJ0dE9zbU0/view?usp=drive_link&resourcekey=0-CPiKS-AiE8IDonk54WJ5_w
+##NOTE:: To download: The deepfashion attribute prediction dataset,Please navigate to:-
 
-AND DOWNLOAD AND EXTRACT THE ZIP FILE IN PROJECT DIRECTORY, WITHOUT THIS APP WON'T DISPLAY IMAGES### 
+https://drive.google.com/file/d/0B7EVK8r0v71pa2EyNEJ0dE9zbU0/view?usp=drive_link&resourcekey=0-CPiKS-AiE8IDonk54WJ5_w
 
+And download and extract this into the project repository, without this the images will not get displayed.
 
 
 ###Step 1: modify file path variables according to their location on your machine:####
